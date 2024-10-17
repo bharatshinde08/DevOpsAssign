@@ -5,11 +5,11 @@ public class SumSmallestLargest {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter first number: ");
-        double num1 = scanner.nextDouble();
+        int num1 = scanner.nextInt();
         System.out.print("Enter second number: ");
-        double num2 = scanner.nextDouble();
+        int num2 = scanner.nextInt();
         System.out.print("Enter third number: ");
-        double num3 = scanner.nextDouble();
+        int num3 = scanner.nextInt();
 
         double smallest = Math.min(num1, Math.min(num2, num3));
         double largest = Math.max(num1, Math.max(num2, num3));
